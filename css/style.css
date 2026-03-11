@@ -10,6 +10,7 @@ body {
   position: relative;
   top: 100px;
   text-align: center;
+  /* padding: 50px 20px; */
 }
 
 nav {
@@ -18,7 +19,7 @@ nav {
   position: fixed;
   width: 100%;
   top: 0;
-  right: 20px;
+  padding-right: 20px;
 }
 
 .navigation {
@@ -37,6 +38,7 @@ nav {
 
 .nav-link:hover {
   color: #bebebe;
+  cursor: pointer;
 }
 
 h1 {
@@ -48,6 +50,7 @@ p {
   line-height: 1;
   font-size: 16px;
   text-decoration: none;
+  /* text-wrap: pretty; */
 }
 
 li {
@@ -58,3 +61,12 @@ li {
 #contact {
   display:;
 } */
+
+#contact {
+  background-color: #1d1d1f;
+  color: #fdfdfd;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 20px 10px;
+}
