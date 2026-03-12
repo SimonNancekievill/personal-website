@@ -4,12 +4,15 @@
 }
 
 body {
+  /* display: flex;
+  flex-direction: column; */
   background-color: #fdfdfd;
   font-family: Arial, Helvetica, sans-serif;
   color: #1d1d1f;
   position: relative;
   top: 100px;
   text-align: center;
+  height: 100vh;
   /* padding: 50px 20px; */
 }
 
@@ -55,18 +58,25 @@ p {
 
 li {
   text-decoration: none;
-  display: inline;
+  /* display: inline; */
+  list-style-type: none;
 }
-/* 
-#contact {
-  display:;
-} */
+
+li a {
+  color: #fdfdfd;
+}
 
 #contact {
-  background-color: #1d1d1f;
+  background-color: orange;
   color: #fdfdfd;
   display: flex;
   flex-direction: column;
   gap: 5px;
   padding: 20px 10px;
+  width: 50%;
+  border-radius: 20px;
+}
+
+footer {
+  position: relative;
 }
