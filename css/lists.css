@@ -1,0 +1,9 @@
+li {
+  text-decoration: none;
+  /* display: inline; */
+  list-style-type: none;
+}
+
+li a {
+  color: var(--secondary-color);
+}

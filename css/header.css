@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  grid-column: span 12;
+  height: 10vh;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.navigation__link {
+  color: var(--secondary-color);
+  padding: 5px 14px;
+  border-radius: 5px;
+}
+
+.navigation__menu {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.navigation__link > a {
+  cursor: pointer;
+}
+a:hover {
+  color: var(--grey-color);
+  cursor: pointer;
+}
