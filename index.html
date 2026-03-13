@@ -7,19 +7,26 @@
     <title>Simon Nancekievill</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav>
-        <ul class="navigation">
-          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
+        <ul class="navigation__menu">
+          <li class="navigation__link">
+            <a href="#about">Home</a>
+          </li>
+          <li class="navigation__link">
+            <a href="#skills">Work</a>
+          </li>
+          <li class="navigation__link">
+            <a href="#biography">Contact</a>
           </li>
         </ul>
       </nav>
     </header>
-    <main>
-      <section id="home">
+    <main class="main-content">
+      <article class="content-hero image-hero">
+        <a class="hero-link" href="#">Simon Nancekievill</a>
+      </article>
+      <section class="home">
         <h1>Simon Nancekievill</h1>
         <p>
           Hi, I'm Simon (he/him), I`m training to be a software developer
@@ -27,23 +34,14 @@
           accessible and user-friendly solutions.
         </p>
       </section>
-      <section id="work">
+      <section class="work">
         <h2>Work</h2>
         <p>Here's a brief overview of my current projects and experience.</p>
-        <img
-          src="https://via.placeholder.com/400x200"
-          alt="Project Screenshot"
-        />
-        <img
-          src="https://via.placeholder.com/400x200"
-          alt="Project Screenshot"
-        />
-        <img
-          src="https://via.placeholder.com/400x200"
-          alt="Project Screenshot"
-        />
+        <img src="#" alt="Project Screenshot" />
+        <img src="#" alt="Project Screenshot" />
+        <img src="#" alt="Project Screenshot" />
       </section>
-      <section id="contact">
+      <section class="contact">
         <h2>Contact</h2>
         <p>Feel free to reach out to me via email or social media.</p>
         <ul>
